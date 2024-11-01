@@ -8,6 +8,8 @@ from os import listdir
 from os.path import isfile, join
 from matplotlib import font_manager
 import os
+import seaborn as sns
+
 font_path = 'Fontes/Ruda/Ruda-VariableFont_wght.ttf'
 font_manager.fontManager.addfont(font_path)
 prop = font_manager.FontProperties(fname=font_path)
@@ -40,6 +42,23 @@ def getFiles(data):
         
     return data
 
+def toSampleIDs(data):
+    sampleDF = {}
+    for sampleName in data:
+        for sampleID in data[sampleName]:
+            sampleDF[sampleID] = data[sampleName][sampleID]
+            sampleDF[sampleID]["name"] = sampleName
+    
+    return sampleDF
+
+def proCDAll(metaData, fileType = "filesTXT", buffer = False):
+    metaDataProc = {}
+    for sampleIdentity in metaData:
+        metaDataProc[sampleIdentity] = procCD(metaData, sampleIdentity, fileType=fileType, buffer=buffer)
+        
+    return metaDataProc
+        
+
 def getAbs(abs_actual):    
     avg = abs_actual.mean()
     std = abs_actual.std()
@@ -69,7 +88,7 @@ def getAbsBuffer(buffer):
     return np.array(df['WL']), cd_abs_actual, standard_error
 
 
-def procCD(metaData, sampleName, fileType="txt", buffer=False):
+def procCD(metaData, sampleName, fileType="filesTXT", buffer=False):
     
     dataFrames = {}
     
@@ -77,7 +96,6 @@ def procCD(metaData, sampleName, fileType="txt", buffer=False):
 
     for sample in desiredSamples:
         idSample = sample["id"]
-
         for i in range(1, len(sample[fileType])+1):
             df = pd.read_csv(sample[fileType][i-1] ,names=['WL','CD Abs'],sep=' ')
 
@@ -102,7 +120,7 @@ def procCD(metaData, sampleName, fileType="txt", buffer=False):
             wl_buffer, abs_buffer, se_buffer = getAbsBuffer(bufferDesired)
 
             if len(list((df['WL']))) > len(wl_buffer):
-                cd_abs_actual = cd_abs_actual[list(df['WL']).index(251):list(df['WL']).index(190)]
+                cd_abs_actual = cd_abs_actual[list(df['WL']).index(260):list(df['WL']).index(180)]
 
             cd_abs_actual = np.subtract(cd_abs_actual,abs_buffer)
 
@@ -112,7 +130,10 @@ def procCD(metaData, sampleName, fileType="txt", buffer=False):
         cd_abs_actual = smooth(cd_abs_actual)
 
         if buffer:
-            dataFrames[idSample] = {"WL": list(range(180,261))[::-1], "cd_abs_actual": cd_abs_actual, "standard_error": standard_error}
+            size = sample["size"] if "size" in  sample.keys() else None
+            distance = sample["distance"] if "distance" in  sample.keys() else None
+            pmt = sample["PMT"] if "PMT" in sample.keys() else None
+            dataFrames[idSample] = {"WL": list(range(180,261))[::-1], "cd_abs_actual": cd_abs_actual, "standard_error": standard_error, "size": size, "distance": distance, "pmt": pmt}
         else:
             dataFrames[idSample] = np.array(df['WL']), cd_abs_actual, standard_error
     return dataFrames
@@ -137,7 +158,7 @@ def cdproc(index,caminho,water=False):
         if len(list((df['WL']))) > len(wl_water):
             cd_abs_actual = cd_abs_actual[list(df['WL']).index(251):list(df['WL']).index(190)]
 
-        cd_abs_actual = np.subtract(cd_abs_actual,abs_water)
+        cd_abs_actual = np.subtract(cd_abs_actual,np.abs(abs_water))
 
     avg = cd_abs_actual.mean()
     std = cd_abs_actual.std()
@@ -156,9 +177,27 @@ def cdproc(index,caminho,water=False):
 
 # cd_plot(water)
 
-def cdplot(wls,ramp_plot,l,c):
-
-    plt.plot(wls,ramp_plot,label=l,color=c)
+def plotSamples(data, samples = [], show=True, save = False, output_path = "output.png"):
+    sns.color_palette("hls", 8)
+    for sampleID in samples:
+        name = data[sampleID]["name"]+ f" - Size {data[sampleID]['size']}" if data[sampleID]["size"] is not None else data[sampleID]["name"]
+        name = name + f" - Distance {data[sampleID]['distance']}" if data[sampleID]['distance'] is not None else name
+        name = name + f" - PMT {data[sampleID]['pmt']}" if data[sampleID]['pmt'] is not None else name
+        cdplot(data[sampleID]["WL"], data[sampleID]["cd_abs_actual"],  name)
+        
+    # Sem normalização
+    plt.xlim(180,260)
+    # plt.xlim(200,250), plt.ylim(-2,2)
+    plt.title('Proteins CD Comparison',fontsize=16)
+    plt.grid(), plt.tight_layout()
+    if save:
+        plt.savefig(output_path, dpi=500)
+    if show:
+        plt.show()
+        
+def cdplot(wls,ramp_plot,l):
+    sns.color_palette("hls", 8)
+    plt.plot(wls,ramp_plot,label=l)
 
     plt.xlabel('Wavelength (nm)',fontsize=14),plt.ylabel('CD Absorbance (millidegrees)',fontsize=14)
     plt.legend(fontsize=12)    

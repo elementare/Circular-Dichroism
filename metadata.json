@@ -1,0 +1,257 @@
+{
+    "27_09": {
+        "Buffer": {
+            "samples": [
+                {
+                    "id": 2,
+                    "distance": 45,
+                    "PMT": 2,
+                    "concentration": null
+                },
+                {
+                    "id": 3,
+                    "distance": 45,
+                    "PMT": 1,
+                    "concentration": null
+                },
+                {
+                    "id": 4,
+                    "distance": 66,
+                    "PMT": 2,
+                    "concentration": null
+                },
+                {
+                    "id": 5,
+                    "distance": 66,
+                    "PMT": 1,
+                    "concentration": null
+                },
+                {
+                    "id": 2,
+                    "distance": "Final",
+                    "PMT": 1,
+                    "concentration": null
+                },
+                {
+                    "id": 20,
+                    "distance": "Final",
+                    "PMT": 1,
+                    "concentration": null
+                }
+            ]
+        },
+        "HSA": {
+            "samples": [
+                {
+                    "id": 7,
+                    "distance": 45,
+                    "PMT": 2,
+                    "concentration": 0.22
+                },
+                {
+                    "id": 8,
+                    "distance": 45,
+                    "PMT": 2,
+                    "concentration": 0.14
+                },
+                {
+                    "id": 9,
+                    "distance": 45,
+                    "PMT": 1,
+                    "concentration": 0.14
+                },
+                {
+                    "id": 10,
+                    "distance": 66,
+                    "PMT": 2,
+                    "concentration": 0.14
+                },
+                {
+                    "id": 11,
+                    "distance": 66,
+                    "PMT": 1,
+                    "concentration": 0.14
+                },
+                {
+                    "id": 12,
+                    "distance": "Final",
+                    "PMT": 1,
+                    "concentration": 0.14
+                }
+            ]
+        },
+        "Glob": {
+            "samples": [
+                {
+                    "id": 13,
+                    "distance": 45,
+                    "PMT": 2,
+                    "concentration": 0.30
+                },
+                {
+                    "id": 14,
+                    "distance": 45,
+                    "PMT": 1,
+                    "concentration": 0.30
+                },
+                {
+                    "id": 15,
+                    "distance": 45,
+                    "PMT": 2,
+                    "concentration": 0.76
+                },
+                {
+                    "id": 16,
+                    "distance": 45,
+                    "PMT": 1,
+                    "concentration": 0.76
+                },
+                {
+                    "id": 17,
+                    "distance": 66,
+                    "PMT": 2,
+                    "concentration": 0.76
+                },
+                {
+                    "id": 18,
+                    "distance": 66,
+                    "PMT": 1,
+                    "concentration": 0.76
+                },
+                {
+                    "id": 19,
+                    "distance": "Final",
+                    "PMT": 1,
+                    "concentration": 0.76
+                }
+            ]
+        }
+    },
+    "04_10": {
+        "NP 100nm": {
+            "samples": [
+                {
+                    "id": 1,
+                    "distance": 45,
+                    "PMT": 2,
+                    "size": "100nm",
+                    "concentration": null
+                },
+                {
+                    "id": 1,
+                    "distance": 45,
+                    "PMT": 1,
+                    "size": "100nm",
+                    "concentration": null
+                },
+                {
+                    "id": 1,
+                    "distance": "Final",
+                    "PMT": 1,
+                    "size": "100nm",
+                    "concentration": null
+                }
+            ]
+        },
+        "HSA 2/NP": {
+            "samples": [
+                {
+                    "id": 4,
+                    "distance": 45,
+                    "PMT": 2,
+                    "size": "100nm",
+                    "concentration": 2.5
+                },
+                {
+                    "id": 5,
+                    "distance": 45,
+                    "PMT": 1,
+                    "size": "100nm",
+                    "concentration": 2.5
+                },
+                {
+                    "id": 6,
+                    "distance": "Final",
+                    "PMT": 1,
+                    "size": "100nm",
+                    "concentration": 2.5
+                }
+            ]
+        },
+        "HSA 10/NP": {
+            "samples": [
+                {
+                    "id": 7,
+                    "distance": 45,
+                    "PMT": 2,
+                    "size": "100nm",
+                    "concentration": 5.0
+                },
+                {
+                    "id": 8,
+                    "distance": 45,
+                    "PMT": 1,
+                    "size": "100nm",
+                    "concentration": 5.0
+                },
+                {
+                    "id": 9,
+                    "distance": "Final",
+                    "PMT": 1,
+                    "size": "100nm",
+                    "concentration": 5.0
+                }
+            ]
+        },
+        "HSA 20/NP": {
+            "samples": [
+                {
+                    "id": 10,
+                    "distance": 45,
+                    "PMT": 2,
+                    "size": "100nm",
+                    "concentration": 12.5
+                },
+                {
+                    "id": 11,
+                    "distance": 45,
+                    "PMT": 1,
+                    "size": "100nm",
+                    "concentration": 12.5
+                },
+                {
+                    "id": 13,
+                    "distance": "Final",
+                    "PMT": 1,
+                    "size": "100nm",
+                    "concentration": 12.5
+                }
+            ]
+        },
+        "NP 150nm": {
+            "samples": [
+                {
+                    "id": 14,
+                    "distance": 45,
+                    "PMT": 2,
+                    "size": "150nm",
+                    "concentration": null
+                },
+                {
+                    "id": 15,
+                    "distance": 45,
+                    "PMT": 1,
+                    "size": "150nm",
+                    "concentration": null
+                },
+                {
+                    "id": 16,
+                    "distance": "Final",
+                    "PMT": 1,
+                    "size": "150nm",
+                    "concentration": null
+                }
+            ]
+        }
+    }
+}
