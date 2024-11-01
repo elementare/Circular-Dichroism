@@ -1,0 +1,52 @@
+27/09/2024
+
+Medidas de CD das Proteinas/NPs - Mickey 1mm - Porta Amostras em Posicoes Diferentes
+integration time 2 s, range 260 - 180 nm - 3 scans
+
+01 - Ar - 260-180
+02 - Buffer 10 mM PB - 45 mm - 2 PMTs
+03 - Buffer 10 mM PB - 45 mm - 1 PMTs
+04 - Buffer 10 mM PB - 66 mm - 2 PMTs
+05 - Buffer 10 mM PB - 66 mm - 1 PMTs
+06 - Buffer 10 mM PB - Final - 1 PMTs
+07 - HSA - 45 mm - 2 PMTs - 0.22 mg.mL-1 
+08 - HSA - 45 mm - 2 PMTs - 0.14 mg.mL-1 
+09 - HSA - 45 mm - 1 PMTs - 0.14 mg.mL-1 
+10 - HSA - 66 mm - 2 PMTs - 0.14 mg.mL-1 
+11 - HSA - 66 mm - 1 PMTs - 0.14 mg.mL-1 
+12 - HSA - Final - 1 PMTs - 0.14 mg.mL-1 
+13 - Glob - 45 mm - 2 PMTs - 0.30 mg.mL-1
+14 - Glob - 45 mm - 1 PMTs - 0.30 mg.mL-1 
+15 - Glob - 45 mm - 2 PMTs - 0.76 mg.mL-1
+16 - Glob - 45 mm - 1 PMTs - 0.76 mg.mL-1 
+17 - Glob - 66 mm - 2 PMTs - 0.76 mg.mL-1 
+18 - Glob - 66 mm - 1 PMTs - 0.76 mg.mL-1 
+19 - Glob - Final - 1 PMTs - 0.76 mg.mL-1 
+20 - Buffer 10 mM PB - Final - 1 PMTs - 
+
+
+04/10/2024
+
+Medidas de CD das Proteinas/NPs - Mickey 1mm - Porta Amostras em Posicoes Diferentes
+integration time 2 s, range 260 - 180 nm - 3 scans
+
+01 - NP 100nm - 45mm - 2 PMTs
+02 - NP 100nm - 45mm - 1 PMT
+03 - NP 100nm - Final - 1 PMTs
+04 - HSA 2/NP 100nm - 45mm - 2 PMTs
+05 - HSA 2/NP 100nm - 45mm - 1 PMTs    
+06 - HSA 2/NP 100nm - Final - 1 PMTs   
+07 - HSA 10/NP 100nm - 45mm - 2 PMTs   
+08 - HSA 10/NP 100nm - 45mm - 1 PMTs   
+09 - HSA 10/NP 100nm - Final - 1 PMTs
+10 - HSA 20/NP 100nm - 45mm - 2 PMTs   
+11 - HSA 20/NP 100nm - 45mm - 1 PMTs   
+12 - HSA 20/NP 100nm - Final - 1 PMTs 
+13 - HSA 20/NP 100nm - Final (modificada) - 1 PMTs   
+14 - NP 150nm - 45mm - 2 PMTs  
+15 - NP 150nm - 45mm - 1 PMT   
+16 - NP 150nm - Final - 1 PMTs
+
+2: 2.5 mg.mL-1
+10: 5 mg.mL-1
+20: 12.5 mg.mL-1
