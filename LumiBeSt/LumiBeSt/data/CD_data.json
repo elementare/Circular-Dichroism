@@ -1,0 +1,427 @@
+{
+    "CD0000001000": {
+        "Name": "Aldolase",
+        "PDB": "1ado",
+        "Description": "SP175, single domain type, mixed alpha beta"
+    },
+    "CD0000002000": {
+        "Name": "Alkaline Phosphatase",
+        "PDB": "1ed9",
+        "Description": "SP175, single domain type, mixed alpha beta"
+    },
+    "CD0000002100": {
+        "Name": "Alkaline Phosphatase",
+        "PDB": "1ed9",
+        "Description": "SP175, single domain, mixed alpha beta"
+    },
+    "CD0000003000": {
+        "Name": "α-amylase",
+        "PDB": "1vjs",
+        "Description": "SP175, multi domain type, mixed alpha beta"
+    },
+    "CD0000004000": {
+        "Name": "α-bungarotoxin",
+        "PDB": "1hc9",
+        "Description": "SP175, single domain type, beta"
+    },
+    "CD0000005000": {
+        "Name": "α-chymotrypsin",
+        "PDB": "5cha",
+        "Description": "SP175, single domain type, beta"
+    },
+    "CD0000006000": {
+        "Name": "α-chymotrypsinogen",
+        "PDB": "2cga",
+        "Description": "SP175, single domain type, beta"
+    },
+    "CD0000007000": {
+        "Name": "Aprotinin",
+        "PDB": "5pti",
+        "Description": "SP175, single domain type, irregular. few secondary structures"
+    },
+    "CD0000007100": {
+        "Name": "Aprotanin",
+        "PDB": "5pti",
+        "Description": "SP175, single domain, irregular. few secondary structures"
+    },
+    "CD0000008000": {
+        "Name": "Avidin",
+        "PDB": "1rav",
+        "Description": "SP175, single domain type, beta"
+    },
+    "CD0000008100": {
+        "Name": "Avidin",
+        "PDB": "1rav",
+        "Description": "SP175a, single domain type, beta"
+    },
+    "CD0000009000": {
+        "Name": "β-amylase",
+        "PDB": "1fa2",
+        "Description": "SP175, single domain type, mixed alpha beta"
+    },
+    "CD0000010000": {
+        "Name": "β-galactosidas",
+        "PDB": "1bgl",
+        "Description": "SP175, multi domain type, beta"
+    },
+    "CD0000011000": {
+        "Name": "β-lactoglobulin",
+        "PDB": "1b8e",
+        "Description": "SP175, single domain type, beta"
+    },
+    "CD0000012000": {
+        "Name": "C-Phycocyanin",
+        "PDB": "1ha7",
+        "Description": "SP175, single domain type, alpha"
+    },
+    "CD0000013000": {
+        "Name": "Calmodulin",
+        "PDB": "1lin",
+        "Description": "SP175, single domain type, alpha"
+    },
+    "CD0000014000": {
+        "Name": "Carbonic Anhydrase I",
+        "PDB": "1hcb",
+        "Description": "SP175, single domain type, mixed alpha beta"
+    },
+    "CD0000015000": {
+        "Name": "Carbonic Anhydrase II",
+        "PDB": "1v9e",
+        "Description": "SP175, multi domain type, mixed alpha beta"
+    },
+    "CD0000016000": {
+        "Name": "Carboxypeptidase A",
+        "PDB": "5cpa",
+        "Description": "SP175, single domain type, mixed alpha beta"
+    },
+    "CD0000017000": {
+        "Name": "Catalase",
+        "PDB": "1dgf",
+        "Description": "SP175, multi domain type, beta"
+    },
+    "CD0000018000": {
+        "Name": "Ceruloplasmin",
+        "PDB": "1kcw",
+        "Description": "SP175, single domain type, beta"
+    },
+    "CD0000019000": {
+        "Name": "Citrate Synthase",
+        "PDB": "2cts",
+        "Description": "SP175, multi domain type, alpha"
+    },
+    "CD0000019100": {
+        "Name": "Citrate Synthase",
+        "PDB": "2cts",
+        "Description": "SP175a, multi domain type, alpha"
+    },
+    "CD0000020000": {
+        "Name": "Concanavalin A",
+        "PDB": "1nls",
+        "Description": "SP175, single domain type, beta"
+    },
+    "CD0000021000": {
+        "Name": "Cytochrome-C",
+        "PDB": "1hrc",
+        "Description": "SP175, single domain type, alpha"
+    },
+    "CD0000022000": {
+        "Name": "βB2-crystallin",
+        "PDB": "2bb2",
+        "Description": "SP175, single domain type, beta, crystallin database, CRYST175"
+    },
+    "CD0000023000": {
+        "Name": "γ-B-crystallin",
+        "PDB": "4gcr",
+        "Description": "SP175, single domain type, beta, crystallin database, CRYST175"
+    },
+    "CD0000024000": {
+        "Name": "γ-D-crystallin",
+        "PDB": "1elp",
+        "Description": "SP175, single domain type, beta, crystallin database, CRYST175"
+    },
+    "CD0000025000": {
+        "Name": "γ-E-crystallin",
+        "PDB": "1m8u",
+        "Description": "SP175, single domain type, beta, crystallin database, CRYST175"
+    },
+    "CD0000026000": {
+        "Name": "γ-S-crystallin (C Terminus)",
+        "PDB": "1ha4",
+        "Description": "SP175, single domain type, beta, crystallin database, CRYST175"
+    },
+    "CD0000027000": {
+        "Name": "γ-D-crystallin",
+        "PDB": "1hk0",
+        "Description": "SP175, single domain type, beta, crystallin database, CRYST175"
+    },
+    "CD0000027100": {
+        "Name": "Gamma-D Crystallin",
+        "PDB": "1hk0",
+        "Description": "SP175a, single domain type, beta"
+    },
+    "CD0000028000": {
+        "Name": "Dehyroquinase-type1",
+        "PDB": "1qfe",
+        "Description": "SP175, single domain type, mixed alpha beta"
+    },
+    "CD0000029000": {
+        "Name": "DHQase-type2",
+        "PDB": "2dhq",
+        "Description": "SP175, single domain type, mixed alpha beta"
+    },
+    "CD0000030000": {
+        "Name": "DNase-1",
+        "PDB": "3dni",
+        "Description": "SP175, single domain type, mixed alpha beta"
+    },
+    "CD0000031000": {
+        "Name": "Elastase",
+        "PDB": "3est",
+        "Description": "SP175, single domain type, beta"
+    },
+    "CD0000032000": {
+        "Name": "Ferredoxin",
+        "PDB": "2fdn",
+        "Description": "SP175, single domain type, mixed alpha beta"
+    },
+    "CD0000033000": {
+        "Name": "Glucose Oxidase",
+        "PDB": "1cf3",
+        "Description": "SP175, multi domain type, mixed alpha beta"
+    },
+    "CD0000034000": {
+        "Name": "Glutamate Dehydrogenase",
+        "PDB": "1hwx",
+        "Description": "SP175, multi domain type, mixed alpha beta"
+    },
+    "CD0000035000": {
+        "Name": "Glycogen Phosphorylase-b",
+        "PDB": "1gpb",
+        "Description": "SP175, single domain type, mixed alpha beta"
+    },
+    "CD0000035100": {
+        "Name": "Glycogen Phosphorylase B",
+        "PDB": "1gpb",
+        "Description": "SP175a, single domain type, mixed alpha beta"
+    },
+    "CD0000036000": {
+        "Name": "Haloalkane Dehalogenase",
+        "PDB": "1bn6",
+        "Description": "SP175, single domain type, mixed alpha beta"
+    },
+    "CD0000037000": {
+        "Name": "Hemoglobin",
+        "PDB": "1hda",
+        "Description": "SP175, single domain type, alpha"
+    },
+    "CD0000037100": {
+        "Name": "Hemoglobin",
+        "PDB": "1hda",
+        "Description": "SP175a, multi domain type, alpha"
+    },
+    "CD0000038000": {
+        "Name": "Serum Albumin",
+        "PDB": "1n5u",
+        "Description": "SP175, single domain type, alpha"
+    },
+    "CD0000038100": {
+        "Name": "Serum Albumin",
+        "PDB": "1n5u",
+        "Description": "SP175a, single domain type, alpha"
+    },
+    "CD0000039000": {
+        "Name": "IgG",
+        "PDB": "1igt",
+        "Description": "SP175, single domain type, beta"
+    },
+    "CD0000039100": {
+        "Name": "Immunoglobulin G",
+        "PDB": "1igt",
+        "Description": "SP175a, single domain type, beta"
+    },
+    "CD0000040000": {
+        "Name": "Insulin",
+        "PDB": "1trz",
+        "Description": "SP175, single domain type, alpha"
+    },
+    "CD0000041000": {
+        "Name": "Jacalin",
+        "PDB": "1ku8",
+        "Description": "SP175, single domain type, beta"
+    },
+    "CD0000042000": {
+        "Name": "Lactoferrin",
+        "PDB": "1blf",
+        "Description": "SP175, single domain type, mixed alpha beta"
+    },
+    "CD0000043000": {
+        "Name": "Lentil Lectin",
+        "PDB": "1les",
+        "Description": "SP175, single domain type, beta"
+    },
+    "CD0000044000": {
+        "Name": "Leptin",
+        "PDB": "1ax8",
+        "Description": "SP175, single domain type, alpha"
+    },
+    "CD0000045000": {
+        "Name": "Lysozyme",
+        "PDB": "193l",
+        "Description": "SP175, single domain type, alpha"
+    },
+    "CD0000045100": {
+        "Name": "Lysozyme",
+        "PDB": "193l",
+        "Description": "SP175a, single domain type, alpha"
+    },
+    "CD0000046000": {
+        "Name": "Monellin",
+        "PDB": "1mol",
+        "Description": "SP175, single domain type, mixed alpha beta"
+    },
+    "CD0000047000": {
+        "Name": "Myoglobin",
+        "PDB": "1ymb",
+        "Description": "SP175, single domain type, alpha"
+    },
+    "CD0000048000": {
+        "Name": "Myoglobin",
+        "PDB": "1a6m",
+        "Description": "SP175, single domain type, alpha"
+    },
+    "CD0000049000": {
+        "Name": "NmrA",
+        "PDB": "1k6j",
+        "Description": "SP175, multi domain type, mixed alpha beta"
+    },
+    "CD0000050000": {
+        "Name": "Ovalbumin",
+        "PDB": "1ova",
+        "Description": "SP175, multi domain type, mixed alpha beta"
+    },
+    "CD0000051000": {
+        "Name": "Ovotransferrin",
+        "PDB": "1dot",
+        "Description": "SP175, single domain type, mixed alpha beta"
+    },
+    "CD0000052000": {
+        "Name": "Papain",
+        "PDB": "1ppn",
+        "Description": "SP175, single domain type, mixed alpha beta"
+    },
+    "CD0000053000": {
+        "Name": "Lectin (pea)",
+        "PDB": "1ofs",
+        "Description": "SP175, single domain type, beta"
+    },
+    "CD0000054000": {
+        "Name": "Pectate Lyase C",
+        "PDB": "1air",
+        "Description": "SP175, single domain type, beta"
+    },
+    "CD0000055000": {
+        "Name": "Pepsinogen",
+        "PDB": "2psg",
+        "Description": "SP175, single domain type, beta"
+    },
+    "CD0000056000": {
+        "Name": "Peroxidase",
+        "PDB": "7atj",
+        "Description": "SP175, multi domain type, alpha"
+    },
+    "CD0000057000": {
+        "Name": "Phosphoglucomutase",
+        "PDB": "3pmg",
+        "Description": "SP175, multi domain type, mixed alpha beta"
+    },
+    "CD0000058000": {
+        "Name": "Phosphoglycerate Kinase",
+        "PDB": "3pgk",
+        "Description": "SP175, multi domain type, mixed alpha beta"
+    },
+    "CD0000059000": {
+        "Name": "Phospholipase",
+        "PDB": "1une",
+        "Description": "SP175, single domain type, alpha"
+    },
+    "CD0000060000": {
+        "Name": "PNMT",
+        "PDB": "1hnn",
+        "Description": "SP175, single domain type, mixed alpha beta"
+    },
+    "CD0000061000": {
+        "Name": "Pyruvate Kinase",
+        "PDB": "1a49",
+        "Description": "SP175, multi domain type, mixed alpha beta"
+    },
+    "CD0000061100": {
+        "Name": "Pyruvate Kinase",
+        "PDB": "1a49",
+        "Description": "SP175a, multi domain type, mixed alpha beta"
+    },
+    "CD0000062000": {
+        "Name": "Rhodanese",
+        "PDB": "1rhs",
+        "Description": "SP175, single domain type, mixed alpha beta"
+    },
+    "CD0000063000": {
+        "Name": "Ribonuclease A",
+        "PDB": "3rn3",
+        "Description": "SP175, single domain type, mixed alpha beta"
+    },
+    "CD0000063100": {
+        "Name": "Ribonuclease Pancreatic",
+        "PDB": "3rn3",
+        "Description": "SP175a, single domain type, mixed alpha beta"
+    },
+    "CD0000064000": {
+        "Name": "Rubredoxin",
+        "PDB": "1r0i",
+        "Description": "SP175, single domain type, beta"
+    },
+    "CD0000065000": {
+        "Name": "Trypsin Inhibitor A",
+        "PDB": "1ba7",
+        "Description": "SP175, single domain type, beta"
+    },
+    "CD0000066000": {
+        "Name": "Streptavidin",
+        "PDB": "1stp",
+        "Description": "SP175, single domain type, beta"
+    },
+    "CD0000066100": {
+        "Name": "Streptavidin",
+        "PDB": "1stp",
+        "Description": "SP175a, single domain type, beta"
+    },
+    "CD0000067000": {
+        "Name": "Subtilisin A",
+        "PDB": "1scd",
+        "Description": "SP175, single domain type, mixed alpha beta"
+    },
+    "CD0000067100": {
+        "Name": "Subtilisin Carlsberg",
+        "PDB": "1scd",
+        "Description": "SP175a, single domain type, mixed alpha beta"
+    },
+    "CD0000068000": {
+        "Name": "Superoxide Dismutase [Cu-Zn]",
+        "PDB": "1cbj",
+        "Description": "SP175, single domain type, beta"
+    },
+    "CD0000069000": {
+        "Name": "Thaumatin",
+        "PDB": "1thw",
+        "Description": "SP175, single domain type, beta"
+    },
+    "CD0000070000": {
+        "Name": "Triose Phosphate Isomerase",
+        "PDB": "7tim",
+        "Description": "SP175, single domain type, mixed alpha beta"
+    },
+    "CD0000071000": {
+        "Name": "Ubiquitin",
+        "PDB": "1ubi",
+        "Description": "SP175, single domain type, mixed alpha beta"
+    }
+}
