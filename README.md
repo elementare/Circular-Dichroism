@@ -21,7 +21,7 @@ pip install LumiCD
 Or clone the repository and install locally:
 
 ```bash
-git clone https://github.com/yourusername/LumiCD.git
+git clone https://github.com/elementare/LumiCD.git
 cd LumiCD
 pip install .
 ```
